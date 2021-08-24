@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
-LABEL maintainer="Niklas Hauser <niklas.hauser@rwth-aachen.de>"
-LABEL Description="Image for building and debugging arm-embedded projects from git"
+LABEL maintainer="Herb Peyerl <herb.peyerl@kinetyx.tech>"
+LABEL Description="Image for building and debugging Nordic NRF and arm-embedded projects from git"
 WORKDIR /work
 
 ADD . /work
